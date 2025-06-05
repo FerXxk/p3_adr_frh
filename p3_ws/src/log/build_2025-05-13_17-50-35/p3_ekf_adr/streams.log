@@ -1,0 +1,42 @@
+[0.441s] Invoking command in '/home/fernando/AdR/p3_ws/src/p3_ekf_adr': PYTHONPATH=/home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p3_ekf_adr build --build-base /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build install --record /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/install.log --single-version-externally-managed install_data
+[0.609s] running egg_info
+[0.610s] writing ../build/p3_ekf_adr/p3_ekf_adr.egg-info/PKG-INFO
+[0.610s] writing dependency_links to ../build/p3_ekf_adr/p3_ekf_adr.egg-info/dependency_links.txt
+[0.610s] writing entry points to ../build/p3_ekf_adr/p3_ekf_adr.egg-info/entry_points.txt
+[0.610s] writing requirements to ../build/p3_ekf_adr/p3_ekf_adr.egg-info/requires.txt
+[0.610s] writing top-level names to ../build/p3_ekf_adr/p3_ekf_adr.egg-info/top_level.txt
+[0.611s] reading manifest file '../build/p3_ekf_adr/p3_ekf_adr.egg-info/SOURCES.txt'
+[0.612s] adding license file 'LICENSE'
+[0.612s] writing manifest file '../build/p3_ekf_adr/p3_ekf_adr.egg-info/SOURCES.txt'
+[0.612s] running build
+[0.612s] running build_py
+[0.612s] copying p3_ekf_adr/kf_node.py -> /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr
+[0.612s] copying p3_ekf_adr/ekf_8d_state_estimation.py -> /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr
+[0.612s] copying p3_ekf_adr/ekf_7d_state_estimation.py -> /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr
+[0.613s] copying p3_ekf_adr/motion_models/velocity_motion_models.py -> /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/motion_models
+[0.613s] copying p3_ekf_adr/motion_models/odometry_motion_models.py -> /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/motion_models
+[0.613s] copying p3_ekf_adr/filters/ekf.py -> /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/filters
+[0.613s] running install
+[0.614s] running install_lib
+[0.615s] copying /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/kf_node.py -> /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr
+[0.615s] copying /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/motion_models/velocity_motion_models.py -> /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/motion_models
+[0.615s] copying /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/motion_models/odometry_motion_models.py -> /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/motion_models
+[0.615s] copying /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/ekf_8d_state_estimation.py -> /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr
+[0.615s] copying /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/ekf_7d_state_estimation.py -> /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr
+[0.615s] copying /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build/lib/p3_ekf_adr/filters/ekf.py -> /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/filters
+[0.616s] byte-compiling /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/kf_node.py to kf_node.cpython-310.pyc
+[0.617s] byte-compiling /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/motion_models/velocity_motion_models.py to velocity_motion_models.cpython-310.pyc
+[0.617s] byte-compiling /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/motion_models/odometry_motion_models.py to odometry_motion_models.cpython-310.pyc
+[0.617s] byte-compiling /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/ekf_8d_state_estimation.py to ekf_8d_state_estimation.cpython-310.pyc
+[0.618s] byte-compiling /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/ekf_7d_state_estimation.py to ekf_7d_state_estimation.cpython-310.pyc
+[0.618s] byte-compiling /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr/filters/ekf.py to ekf.cpython-310.pyc
+[0.619s] running install_data
+[0.619s] running install_egg_info
+[0.620s] removing '/home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr-0.0.0-py3.10.egg-info' (and everything under it)
+[0.620s] Copying ../build/p3_ekf_adr/p3_ekf_adr.egg-info to /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages/p3_ekf_adr-0.0.0-py3.10.egg-info
+[0.621s] running install_scripts
+[0.635s] Installing ekf_estimation_3d script to /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/p3_ekf_adr
+[0.635s] Installing ekf_estimation_7d script to /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/p3_ekf_adr
+[0.635s] Installing ekf_estimation_8d script to /home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/p3_ekf_adr
+[0.636s] writing list of installed files to '/home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/install.log'
+[0.653s] Invoked command in '/home/fernando/AdR/p3_ws/src/p3_ekf_adr' returned '0': PYTHONPATH=/home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fernando/AdR/p3_ws/src/install/p3_ekf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p3_ekf_adr build --build-base /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/build install --record /home/fernando/AdR/p3_ws/src/build/p3_ekf_adr/install.log --single-version-externally-managed install_data
